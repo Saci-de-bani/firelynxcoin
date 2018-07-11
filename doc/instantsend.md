@@ -12,7 +12,7 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantSend
 
 This mechanism has been integrated into Bitcore-Node-Ripo which allows for notification to be broadcast through Insight API:
-* API: [https://github.com/firelynxcoinpay/insight-api-firelynxcoin#instantsend-transactions](https://github.com/firelynxcoinpay/insight-api-firelynxcoin#instantsend-transactions)
+* API: [https://github.com/saci-de-bani/insight-api-firelynxcoin#instantsend-transactions](https://github.com/saci-de-bani/insight-api-firelynxcoin#instantsend-transactions)
 
 #### Command line option
 

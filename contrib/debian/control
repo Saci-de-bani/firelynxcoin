@@ -25,8 +25,8 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.firelynxcoin.org/
-Vcs-Git: git://github.com/firelynxcoinpay/firelynxcoin.git
-Vcs-Browser: https://github.com/firelynxcoinpay/firelynxcoin
+Vcs-Git: git://github.com/saci-de-bani/firelynxcoin.git
+Vcs-Browser: https://github.com/saci-de-bani/firelynxcoin
 
 Package: firelynxcoind
 Architecture: any
