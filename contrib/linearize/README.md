@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install firelynxcoin_hash
+## Step 0: Install firelynxcoin
 
-https://github.com/saci-de-bani/firelynxcoin_hash
+https://github.com/saci-de-bani/firelynxcoin
 
 ## Step 1: Download hash list
 
