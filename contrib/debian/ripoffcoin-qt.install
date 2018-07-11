@@ -1,0 +1,6 @@
+usr/local/bin/firelynxcoin-qt usr/bin
+share/pixmaps/firelynxcoin32.xpm usr/share/pixmaps
+share/pixmaps/firelynxcoin16.xpm usr/share/pixmaps
+share/pixmaps/firelynxcoin128.png usr/share/pixmaps
+debian/firelynxcoin-qt.desktop usr/share/applications
+debian/firelynxcoin-qt.protocol usr/share/kde4/services/

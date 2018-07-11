@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dash
+Comment=Dash P2P Cryptocurrency
+Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
+Exec=firelynxcoin-qt %u
+Terminal=false
+Type=Application
+Icon=firelynxcoin128
+MimeType=x-scheme-handler/firelynxcoin;
+Categories=Office;Finance;

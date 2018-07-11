@@ -1,0 +1,22 @@
+[Unit]
+Description=Dash's distributed currency daemon
+After=network.target
+
+[Service]
+User=firelynxcoincore
+Group=firelynxcoincore
+
+Type=forking
+PIDFile=/var/lib/firelynxcoind/firelynxcoind.pid
+ExecStart=/usr/bin/firelynxcoind -daemon -pid=/var/lib/firelynxcoind/firelynxcoind.pid \
+-conf=/etc/firelynxcoincore/firelynxcoin.conf -datadir=/var/lib/firelynxcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
